@@ -19,7 +19,10 @@ body
 
 <h1>Title:{{ $post->title}}</h1>
 
-<h1>Blog:{{ $post->blog}}</h1>
+<h1>Blog</h1>
+
+<p>{{ $post->blog}}</p>
+
 
 
 
