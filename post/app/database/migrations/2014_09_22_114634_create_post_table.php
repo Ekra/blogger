@@ -17,7 +17,7 @@ class CreatePostTable extends Migration {
 			$table->increments('id');
 			$table->timestamps();
 			$table->string('title');
-			$table->string('blog');
+			$table->string('blog',);
 
 		});
 	}
